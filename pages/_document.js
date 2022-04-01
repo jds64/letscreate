@@ -1,4 +1,4 @@
-import Document from 'next/document'
+import Document, {Html, Head, Main, NextScript} from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -26,5 +26,19 @@ export default class MyDocument extends Document {
     } finally {
       sheet.seal()
     }
+  }
+
+  render() {
+    return (
+      <Html lang="en" dir="ltr">
+        <Head>
+          <link rel="stylesheet" href="https://use.typekit.net/qzt6hbb.css" />
+        </Head>
+        <body class="js">
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    )
   }
 }
