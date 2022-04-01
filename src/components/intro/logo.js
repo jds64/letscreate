@@ -10,11 +10,11 @@ const Animator = styled.div`
     }
 
     50% {
-      transform: scale(1.2) rotate(10deg);
+      transform: scale(1.125) rotate(180deg);
     }
 
     100% {
-      transform: scale(1.0);
+      transform: scale(1.25) rotate(360deg);
     }
   }
 
