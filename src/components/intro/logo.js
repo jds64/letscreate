@@ -2,24 +2,9 @@ import styled from 'styled-components'
 
 const Animator = styled.div`
   cursor: pointer;
-  
-  transition: ease-in-out 1s all;
-  @keyframes anim {
-    0% {
-      transform: scale(1.0);
-    }
-
-    50% {
-      transform: scale(1.125) rotate(180deg);
-    }
-
-    100% {
-      transform: scale(1.25) rotate(360deg);
-    }
-  }
-
+  transition: ease 300ms transform;
   &:hover {
-    animation: anim 1s ease-in-out;
+    transform: scale(1.25);
   }
 `
 

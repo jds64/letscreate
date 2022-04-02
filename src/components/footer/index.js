@@ -5,10 +5,10 @@ const FooterWrapper = styled.div`
   display: block;
   margin: auto;
   text-align: center;
-  font-family: 'classico-urw', sans-serif;
+  font-family: ivyepic, sans-serif;
   font-size: 18px;
-  font-weight: 700;
-  color: #888;
+  font-weight: 500;
+  color: #AAA;
 `
 
 export default function Footer() {

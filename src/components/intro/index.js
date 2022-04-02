@@ -14,7 +14,7 @@ const Stage = styled.div`
 
   background: #006AAC;
   color: white;
-  font-family: classico-urw, sans-serif;
+  font-family: ivyepic, sans-serif;
 
   @media screen and (max-width: 800px) {
     grid-template-columns: none;
@@ -106,7 +106,7 @@ const TextArea = styled.textarea`
 const SubmitButton = styled.button`
   padding: 6px 12px;
   font-size: 16px;
-  font-family: classico-urw, sans-serif;
+  font-family: ivyepic, sans-serif;
   border-radius: 6px;
   border: 1px solid #0002;
   box-shadow: 0px 1px 0px #0002;
@@ -156,7 +156,7 @@ export default function Intro() {
         <div style={{ width: '100%' }}>
           {!formIsSent? 
           <>
-            <h1 style={{ fontFamily: 'classico-urw, sans-serif', color: '#006AAC' }}>Get in Touch</h1>
+            <h1 style={{ fontFamily: 'ivyepic, sans-serif', color: '#006AAC' }}>Get in Touch</h1>
             <CustomForm id="x" onSubmit={formSubmit}>
               <div>
                 <FormLabel htmlFor="name">Name</FormLabel>
@@ -174,7 +174,7 @@ export default function Intro() {
             </CustomForm>
           </>:
             <>
-              <div style={{ fontFamily: 'classico-urw, sans-serif', padding: '64px 0px', margin: 'auto', textAlign: 'center' }}>
+              <div style={{ fontFamily: 'ivyepic, sans-serif', padding: '64px 0px', margin: 'auto', textAlign: 'center' }}>
                 <h1 style={{ textAlign: 'center' }}>Thank you! We'll get back to you as soon as possible.</h1>
               </div>
             </>
@@ -185,6 +185,7 @@ export default function Intro() {
                 iframe {
                   width: 100%;
                   height: 200px;
+                  border-radius: 6px;
                 }
               `}</style>
               <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=90%20High%20Street%20Strood,%20ME2%204TP&t=k&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" />

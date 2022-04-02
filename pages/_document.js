@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="en" dir="ltr">
         <Head>
-          <link rel="stylesheet" href="https://use.typekit.net/qzt6hbb.css" />
+          <link rel="stylesheet" href="https://use.typekit.net/zrn7tld.css" />
         </Head>
         <body class="js">
           <Main />
