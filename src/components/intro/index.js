@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import Logo from './logo'
 import Footer from '../footer'
 
@@ -147,7 +147,7 @@ export default function Intro() {
             <p>We employ cutting-edge technology and intimate craftsmanship for our designs, paired with only the finest responsibly sourced materials, to create the best product for you: <em>the customer.</em></p>
             <p>Our team has over 40 years' collective, accredited experience across creative and technical fields which enables us to provide an exceptional service in a reasonable time-frame.</p>
             <p>We aim to offer a memorable gifting experience - from the unboxing to the product itself, it's all part of the magic.</p>
-            <p>We hope you like our shop, but if you have any questions or requests, don't hesitate to contact us via the form below, or email <strong>letscreate1974@gmail.com</strong></p>
+            <p>We hope you like our shop, but if you have any questions or requests, don't hesitate to contact us via the form below, or email <strong title="letscreate1974@gmail.com"><a style={{ color: 'inherit', textDecoration: 'none' }} href="mailto:letscreate1974@gmail.com?subject=Hello!%20👋">letscreate1974@gmail.com</a></strong></p>
             <ShopOnEtsy />
           </div>
         </Section>

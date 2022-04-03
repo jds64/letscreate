@@ -1,10 +1,11 @@
 import styled from 'styled-components'
 
-const Animator = styled.div`
+const Animator = styled.a`
   cursor: pointer;
+  color: inherit;
   transition: ease 300ms transform;
   &:hover {
-    transform: scale(1.25);
+    transform: scale(1.1);
   }
 `
 

@@ -15,6 +15,7 @@ export default function App({ Component, pageProps }) {
       <GlobalStyle />
       <Head>
         <link rel="icon" href="/images/favicon.svg" />
+        <link rel="shortcut icon" href="/images/favicon.svg" />
         <meta lang="en" />
         <meta name="theme-color" content="#006AAC" />
         <meta property="og:title" content="Let's Create Gifts" />
